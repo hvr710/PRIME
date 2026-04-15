@@ -1,0 +1,46 @@
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Local editor / OS files
+.vscode/
+.DS_Store
+
+# Experiment outputs and logs
+outputs/
+lightning_logs/
+wandb/
+log/
+full_ft_cp/
+full_ft_results/
+mlp_cp/
+mlp_results/
+cp/
+*.log
+*.out
+*.err
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# Large local data artifacts that should stay outside git
+data/*.h5
+data/*.csv
+data/*.json
+data/*.npy
+data/*.npz
+data/*.pkl
+data/*.parquet
+data/*.tsv
+
+# Project plans / scratch notes
+plan.md
+plan_moe.md
+experiment_plan.md

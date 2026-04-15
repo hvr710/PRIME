@@ -1,0 +1,26 @@
+dataset_name: 'COMP4'
+data_dir: '/vePFS-0x0d/home/cx/cx/hw/project/project/赛题四数据集及说明文档/mdjpt_comp4_125hz'
+split_json: '/vePFS-0x0d/home/cx/cx/hw/project/project/赛题四数据集及说明文档/mdjpt_comp4_125hz/split_subjects_seed42.json'
+fs: 125
+n_channs: 30
+n_session: 1
+n_subs: 60
+n_vids: 8
+n_class: 2
+
+# mdJPT-compatible windowing after resampling to 125 Hz
+timeLen: 5
+timeStep: 2
+timeLen2: 5
+timeStep2: 2
+
+val_subs_all: [[54, 55, 56, 57, 58, 59]]
+
+channels: [
+    "FP1", "FP2", "F7", "F3", "FZ", "F4", "F8",
+    "FT7", "FC3", "FCZ", "FC4", "FT8",
+    "T7", "C3", "CZ", "C4", "T8",
+    "TP7", "CP3", "CPZ", "CP4", "TP8",
+    "P7", "P3", "PZ", "P4", "P8",
+    "O1", "OZ", "O2"
+]
